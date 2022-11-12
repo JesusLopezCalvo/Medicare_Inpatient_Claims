@@ -1,0 +1,10 @@
+name: something
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - plotly
+  - pandas
+  - ipykernel
+  - matplotlib
+prefix: C:\Users\Jesus\anaconda3\envs\something
