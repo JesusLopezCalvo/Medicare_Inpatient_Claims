@@ -1,0 +1,4 @@
+name: Medicare
+channels:
+  - defaults
+prefix: C:\Users\Jesus\anaconda3\envs\Medicare

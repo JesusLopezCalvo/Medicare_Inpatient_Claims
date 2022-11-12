@@ -1,4 +1,4 @@
-name: something
+name: Medicare
 channels:
   - defaults
 dependencies:
