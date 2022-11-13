@@ -44,23 +44,37 @@ Mcostello_drupal. (2022). American Hospital Association. AHA News.
 
 ## **Setup**
 
+* **Requirements**
+    * Git Bash
+        * To clone the project
+        * [Git Bash Link](https://git-scm.com/downloads)
+    * Anaconda Navigator
+        * This project is run using Anaconda
+        * Other GUI or editors can be used instead
+        * [Anaconda Link](https://www.anaconda.com/)
+
+* **Clone the project**
+    * Open Git Bash
+    * Clone the project in the desired folder by typing:
+        * Git clone https://github.com/JesusLopezCalvo/Medicare_Inpatient_Claims.git
+    
 * **Create a virtual environment**
-    * I used Anaconda distribution to create a new virtual environment
-    * Use the terminal or an Anaconda Prompt for the following steps:
-        * conda create --name *"myenv"*
-        * Replace *"myenv"* with the environment name
-        * When conda asks you to proceed, type y:
-
-* **Clone the project and move into its directory**
-    *https://github.com/JesusLopezCalvo/Medicare_Inpatient_Claims.git
-
-* **Install the needed packages:**
-    * Use the terminal or an Anaconda Prompt for the following steps:
-        * pip install -r requirements.txt
-
+    * Open Anaconda Navigator
+    * Launch CMD.exe Prompt
+    * Select the path directory where the project is installed
+    * Create a virtual environment by typing:
+        * conda env create -f environment.yml
+    * Activate virtual environment by typing:
+        * Activate Medicare
+        
 * **Run the notebook**
-    * Run the jupyter lab notebook 
-        * Medicare.ipynb 
+    * Launch jupyter lab
+        * With the virtual environment activated launch jupyter lab
+        * Type in the prompt "jupyter lab"
+    * A web browser will automatically open with jupyter lab
+        * Open Medicare.ipynb in the file explorer
+        * Run the project by clickin on the double arrow (Restart Kernerl and Run all cells)
+
 
 ## Badges 
 ### 1. GitHub Stats
