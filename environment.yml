@@ -2,9 +2,8 @@ name: Medicare
 channels:
   - defaults
 dependencies:
-  - python=3.10
-  - plotly
   - pandas
   - ipykernel
+  - plotly
   - matplotlib
 prefix: C:\Users\Jesus\anaconda3\envs\Medicare
